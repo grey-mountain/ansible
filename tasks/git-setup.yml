@@ -1,0 +1,21 @@
+- name: Install git
+  become: true
+  apt:
+    name: ["git"]
+  tags:
+    - install
+    - git
+- name: Git personal setup email
+  git_config:
+    name: user.email
+    scope: global
+    value: "greymountain.nvim@gmail.com"
+  tags:
+  - git-personal
+- name: Git personal setup name
+  git_config:
+    name: user.name
+    scope: global
+    value: "grey-mountain"
+  tags:
+  - git-personal

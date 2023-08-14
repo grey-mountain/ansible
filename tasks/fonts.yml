@@ -1,0 +1,8 @@
+- name: Install fira mono nerd font
+  tags:
+    - install
+  shell: |
+    wget "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/FiraMono.zip"
+    unzip FiraMono.zip -d ~/.fonts
+    fc-cache -fv
+    rm -rf FiraMono.zip
