@@ -14,6 +14,7 @@
       - core
   tasks:
     - include: tasks/ssh.yml
+    - include: tasks/fonts.yml
     - include: tasks/keyboard.yml
     - include: tasks/git-setup.yml
     - include: tasks/core-setup.yml
