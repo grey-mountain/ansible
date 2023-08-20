@@ -28,3 +28,4 @@
     - include: tasks/cargo.yml
     - include: tasks/tmux.yml
     - include: tasks/obsidian.yml
+    - include: tasks/wallpapers.yml
