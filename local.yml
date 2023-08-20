@@ -27,3 +27,4 @@
     - include: tasks/dotfiles.yml
     - include: tasks/cargo.yml
     - include: tasks/tmux.yml
+    - include: tasks/obsidian.yml
