@@ -1,0 +1,6 @@
+- name: Installing virtualbox
+  become: true
+  apt:
+    name: ["virtualbox", "virtualbox-ext-pack"]
+  tags:
+    - virtualbox
