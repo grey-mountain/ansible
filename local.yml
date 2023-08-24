@@ -30,3 +30,4 @@
     - include: tasks/obsidian.yml
     - include: tasks/wallpapers.yml
     - include: tasks/virtualbox.yml
+    - include: tasks/office.yml
