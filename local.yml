@@ -31,3 +31,4 @@
     - include: tasks/wallpapers.yml
     - include: tasks/virtualbox.yml
     - include: tasks/office.yml
+    - include: tasks/messengers.yml

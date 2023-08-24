@@ -1,0 +1,7 @@
+- name: Install telegram
+  become: true
+  apt:
+    name: ["telegram"]
+  tags:
+    - messengers
+

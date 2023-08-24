@@ -33,4 +33,10 @@
   tags:
     - install
     - node
-
+- name: Install live-server
+  npm:
+    name: live-server
+    global: yes
+  tags:
+    - install
+    - node
