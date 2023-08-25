@@ -32,3 +32,4 @@
     - include: tasks/virtualbox.yml
     - include: tasks/office.yml
     - include: tasks/messengers.yml
+    - include: tasks/webdev.yml

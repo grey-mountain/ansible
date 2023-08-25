@@ -1,0 +1,7 @@
+- name: Install insomnia
+  become: true
+  community.general.snap:
+    name: insomnia
+    classic: yes
+  tags:
+    - insomnia
