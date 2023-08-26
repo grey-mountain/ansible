@@ -5,3 +5,11 @@
     classic: yes
   tags:
     - insomnia
+    - webdev
+- name: Install jq
+  become: true
+  apt:
+    name: ["jq" ]
+  tags:
+    - insomnia
+    - webdev
