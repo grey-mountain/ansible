@@ -12,13 +12,6 @@
   tags:
     - install
     - node
-- name: Install Typescript server
-  npm:
-    name: typescript-language-server
-    global: yes
-  tags:
-    - install
-    - node
 - name: Install Typescript
   npm:
     name: typescript
