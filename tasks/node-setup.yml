@@ -6,7 +6,6 @@
     - install
     - node
 
-
 - name: crete n directory
   shell: mkdir -p ~/.n
   tags:
