@@ -1,7 +1,7 @@
 - name: Install packages "wireshark", "fzf",  "gimp", "xclip", "screenkey", "tldr", "ripgrep"
   become: true
   apt:
-    name: [ "wireshark", "fzf",  "gimp", "xclip", "screenkey", "tldr", "ripgrep" ]
+    name: [ "wireshark", "evolution", "fzf",  "gimp", "xclip", "screenkey", "tldr", "ripgrep" ]
   tags:
     - install
     - productivity
