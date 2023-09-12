@@ -32,6 +32,15 @@
     - install
     - neovim
     - core
+    
+- name: Install nodejs and npm
+  become: true
+  apt:
+    name: ["nodejs", "npm"]
+  tags:
+    - install
+    - node
+
 #
 #- name: dconf i3
 #  shell: dconf write /org/mate/desktop/session/required-components/windowmanager "'i3'"

@@ -4,6 +4,7 @@
   tags:
     - wallpapers
 - name: Install imagemagick
+  become: true
   apt: name=imagemagick
   tags:
     - wallpapers
