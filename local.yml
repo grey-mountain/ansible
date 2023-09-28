@@ -18,8 +18,8 @@
     - include: tasks/keyboard.yml
     - include: tasks/git-setup.yml
     - include: tasks/core-setup.yml
-    - include: tasks/dotfiles.yml
     - include: tasks/zsh-setup.yml
+    - include: tasks/dotfiles.yml
     - include: tasks/node-setup.yml
     - include: tasks/npm-packages.yml
     - include: tasks/slack-setup.yml

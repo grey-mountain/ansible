@@ -1,11 +1,3 @@
-- name: Install nodejs and npm
-  become: true
-  apt:
-    name: ["nodejs", "npm"]
-  tags:
-    - install
-    - node
-
 - name: crete n directory
   shell: mkdir -p ~/.n
   tags:
