@@ -3,8 +3,6 @@
   community.general.snap:
     name: telegram-desktop
     classic: yes
-  apt:
-    name: ["telegram-desktop"]
   tags:
     - telegram
     - webdev
