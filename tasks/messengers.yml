@@ -1,7 +1,10 @@
 - name: Install telegram
   become: true
+  community.general.snap:
+    name: telegram-desktop
+    classic: yes
   apt:
     name: ["telegram-desktop"]
   tags:
-    - messengers
-
+    - telegram
+    - webdev
