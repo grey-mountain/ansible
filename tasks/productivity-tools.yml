@@ -5,4 +5,9 @@
   tags:
     - install
     - productivity
-
+- name: Install todoist
+  become: true
+  community.general.snap:
+    name: todoist
+  tags:
+    - nvim
