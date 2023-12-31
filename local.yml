@@ -33,3 +33,4 @@
     - include: tasks/office.yml
     - include: tasks/messengers.yml
     - include: tasks/webdev.yml
+    - include: tasks/passwords.yml
