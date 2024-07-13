@@ -1,0 +1,13 @@
+- name: Install packages "wireshark", "fzf",  "gimp", "xclip", "screenkey", "tldr", "ripgrep"
+  become: true
+  apt:
+    name: [ "wireshark", "evolution", "fzf",  "gimp", "xclip", "screenkey", "tldr", "ripgrep" ]
+  tags:
+    - install
+    - productivity
+- name: Install todoist
+  become: true
+  community.general.snap:
+    name: todoist
+  tags:
+    - nvim

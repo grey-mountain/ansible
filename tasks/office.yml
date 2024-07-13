@@ -1,0 +1,7 @@
+- name: Install libreoffice
+  become: true
+  apt:
+    name: ["libreoffice"]
+  tags:
+    - libreoffice
+

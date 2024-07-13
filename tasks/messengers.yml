@@ -1,0 +1,8 @@
+- name: Install telegram
+  become: true
+  community.general.snap:
+    name: telegram-desktop
+    classic: yes
+  tags:
+    - telegram
+    - webdev

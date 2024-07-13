@@ -1,0 +1,16 @@
+- name: Example Simple Playbook
+  hosts: localhost
+
+  tasks:
+  - name: Install keepassxc
+    become: true
+    apt:
+      name: ["keepassxc"]
+    tags:
+      - security
+  - name: Install syncthing
+    become: true
+    apt:
+      name: ["syncthing"]
+    tags:
+      - security

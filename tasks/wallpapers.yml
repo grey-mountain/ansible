@@ -1,0 +1,11 @@
+- name: Install pywal python package
+  ansible.builtin.pip:
+    name: pywal
+  tags:
+    - wallpapers
+- name: Install imagemagick
+  become: true
+  apt: name=imagemagick
+  tags:
+    - wallpapers
+

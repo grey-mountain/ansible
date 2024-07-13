@@ -1,0 +1,15 @@
+- name: Install insomnia
+  become: true
+  community.general.snap:
+    name: insomnia
+    classic: yes
+  tags:
+    - insomnia
+    - webdev
+- name: Install jq
+  become: true
+  apt:
+    name: ["jq" ]
+  tags:
+    - insomnia
+    - webdev

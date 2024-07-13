@@ -1,0 +1,15 @@
+- name: Installing tmux
+  apt: name=tmux
+  become: true
+  tags:
+    - tmux
+- name: Cloning tmuxifier repo
+  ansible.builtin.git:
+    repo: 'git@github.com:jimeh/tmuxifier.git'
+    dest: "{{ lookup('env', 'HOME') }}/.tmuxifier"
+    recursive: yes
+    update: yes
+    accept_hostkey: yes
+    version: master
+  tags:
+    - tmux

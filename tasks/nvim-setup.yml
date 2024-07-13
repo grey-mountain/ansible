@@ -1,0 +1,7 @@
+- name: Install nvim
+  become: true
+  community.general.snap:
+    name: nvim
+    classic: yes
+  tags:
+    - nvim
